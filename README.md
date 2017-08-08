@@ -1,8 +1,4 @@
 # gatsby-plugin-favicon
-
-Gatsby favicon plugin
-
-# gatsby-plugin-favicon
 Generates all favicons for Web, Android, iOS, ...
 
 ## Install
