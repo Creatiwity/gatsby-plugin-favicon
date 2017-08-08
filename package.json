@@ -1,0 +1,27 @@
+{
+  "name": "gatsby-plugin-favicon",
+  "version": "1.0.0",
+  "description": "Gatsby plugin to add favicon for all configurations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Creatiwity/gatsby-plugin-favicon.git"
+  },
+  "keywords": [
+    "gatsby",
+    "favicon"
+  ],
+  "author": "Julien Blatecky <julien.blatecky@creatiwity.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Creatiwity/gatsby-plugin-favicon/issues"
+  },
+  "homepage": "https://github.com/Creatiwity/gatsby-plugin-favicon#readme",
+  "readme": "README.md",
+  "dependencies": {
+    "favicons-webpack-plugin": "0.0.7"
+  }
+}
