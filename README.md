@@ -14,17 +14,15 @@ plugins: [
   {
     resolve: `gatsby-plugin-favicon`,
     options: {
-      icons: {
-        android: true,
-        appleIcon: true,
-        appleStartup: true,
-        coast: false,
-        favicons: true,
-        firefox: true,
-        twitter: false,
-        yandex: false,
-        windows: false
-      }
+      android: true,
+      appleIcon: true,
+      appleStartup: true,
+      coast: false,
+      favicons: true,
+      firefox: true,
+      twitter: false,
+      yandex: false,
+      windows: false
     }
   }
 ]
