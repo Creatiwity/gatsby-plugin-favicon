@@ -4,7 +4,8 @@
   "description": "Gatsby plugin to add favicon for all configurations",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src --out-dir .",
+    "watch": "babel -w src --out-dir ."
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,8 @@
   "readme": "README.md",
   "dependencies": {
     "favicons-webpack-plugin": "0.0.7"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
   }
 }

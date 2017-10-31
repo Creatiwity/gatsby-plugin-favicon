@@ -11,6 +11,19 @@ Generates all favicons for Web, Android, iOS, ...
 ```javascript
 // in gatsby-config.js
 plugins: [
-  `gatsby-plugin-favicon`
+  {
+    resolve: `gatsby-plugin-favicon`,
+    options: {
+      android: true,
+      appleIcon: true,
+      appleStartup: true,
+      coast: false,
+      favicons: true,
+      firefox: true,
+      twitter: false,
+      yandex: false,
+      windows: false
+    }
+  }
 ]
 ```
