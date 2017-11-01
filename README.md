@@ -14,6 +14,7 @@ plugins: [
   {
     resolve: `gatsby-plugin-favicon`,
     options: {
+      logo: './src/favicon.png',
       android: true,
       appleIcon: true,
       appleStartup: true,
