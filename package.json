@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "babel src --out-dir .",
-    "watch": "babel -w src --out-dir ."
+    "watch": "babel -w src --out-dir .",
+    "prepublish": "cross-env NODE_ENV=production npm run build"
   },
   "repository": {
     "type": "git",
@@ -23,9 +24,12 @@
   "homepage": "https://github.com/Creatiwity/gatsby-plugin-favicon#readme",
   "readme": "README.md",
   "dependencies": {
-    "favicons-webpack-plugin": "0.0.7"
+    "favicons-webpack-plugin": "0.0.7",
+    "babel-runtime": "^6.26.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0"
+    "babel-preset-react": "^6.24.1",
+    "babel-cli": "^6.26.0",
+    "cross-env": "^5.1.1"
   }
 }

@@ -1,3 +1,6 @@
+/*.js
+!index.js
+
 # Logs
 logs
 *.log
