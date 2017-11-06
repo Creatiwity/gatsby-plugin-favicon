@@ -1,10 +1,10 @@
 const webpack = require(`webpack`)
 const FaviconsWebpackPlugin = require('favicons-webpack-plugin')
 
-exports.modifyWebpackConfig = ({ config, stage }, pluginOptions) =>
+exports.modifyWebpackConfig = ({ config, stage }, { logo, icons }) =>
   config.plugin(`Favicon`, FaviconsWebpackPlugin, [
     {
-      logo: './src/favicon.png',
+      logo: logo || './src/favicon.png',
       prefix: 'favicons/',
       icons: Object.assign(
         {},
@@ -19,7 +19,7 @@ exports.modifyWebpackConfig = ({ config, stage }, pluginOptions) =>
           yandex: true,
           windows: true,
         },
-        pluginOptions
+        icons,
       ),
     },
   ])
