@@ -23,7 +23,8 @@
   "homepage": "https://github.com/Creatiwity/gatsby-plugin-favicon#readme",
   "readme": "README.md",
   "dependencies": {
-    "favicons-webpack-plugin": "0.0.7"
+    "favicons-webpack-plugin": "0.0.7",
+    "react": "^16.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0"
