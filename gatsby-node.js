@@ -19,7 +19,7 @@ exports.modifyWebpackConfig = ({ config, stage }, { logo, icons }) =>
           yandex: true,
           windows: true,
         },
-        icons,
+        icons
       ),
     },
   ])
