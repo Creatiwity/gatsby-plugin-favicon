@@ -7,21 +7,18 @@ exports.modifyWebpackConfig = ({ config, stage }, { logo, icons }) => {
       {
         logo: logo || './src/favicon.png',
         prefix: 'favicons/',
-        icons: Object.assign(
-          {},
-          {
-            android: true,
-            appleIcon: true,
-            appleStartup: true,
-            coast: true,
-            favicons: true,
-            firefox: true,
-            twitter: true,
-            yandex: true,
-            windows: true,
-          },
-          icons
-        ),
+        icons: {
+          android: true,
+          appleIcon: true,
+          appleStartup: true,
+          coast: true,
+          favicons: true,
+          firefox: true,
+          twitter: true,
+          yandex: true,
+          windows: true,
+          ...icons,
+        },
       },
     ])
   }
