@@ -32,4 +32,5 @@ flow-typed
 coverage
 decls
 examples
-
+.editorconfig
+.babelrc
