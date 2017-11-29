@@ -1,5 +1,6 @@
 /*.js
 !index.js
+package-lock.json
 
 # Logs
 logs
