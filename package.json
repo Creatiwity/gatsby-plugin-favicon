@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-favicon",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Gatsby plugin to add favicon for all configurations",
   "main": "index.js",
   "scripts": {
