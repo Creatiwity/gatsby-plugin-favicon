@@ -14,7 +14,7 @@ exports.onRenderBody = (
       twitter = true,
       yandex = true,
       windows = true,
-    }
+    } = {}
   } = pluginOptions
 ) => {
   if (injectHTML) {
