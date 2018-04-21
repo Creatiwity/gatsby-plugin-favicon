@@ -18,7 +18,7 @@ exports.onRenderBody = (
   } = pluginOptions
 ) => {
   if (injectHTML) {
-    const prefix = typeof __PATH_PREFIX__ !== 'undefined' ? __PATH_PREFIX__ : ''
+    const prefix = (typeof __PREFIX_PATHS__ !== 'undefined' && __PREFIX_PATHS__) ? __PATH_PREFIX__ : ''
     const HeadComponents = []
 
     if (android) {
