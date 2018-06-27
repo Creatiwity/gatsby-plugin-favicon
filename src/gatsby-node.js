@@ -13,8 +13,6 @@ exports.modifyWebpackConfig = ({ config, stage }, { logo, icons }) => {
           appleStartup: true,
           coast: true,
           favicons: true,
-          firefox: true,
-          twitter: true,
           yandex: true,
           windows: true,
           ...icons,
