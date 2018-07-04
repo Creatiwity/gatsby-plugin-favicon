@@ -26,8 +26,6 @@ plugins: [
         appleStartup: true,
         coast: false,
         favicons: true,
-        firefox: true,
-        twitter: false,
         yandex: false,
         windows: false
       }
