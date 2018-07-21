@@ -20,14 +20,14 @@ plugins: [
     options: {
       logo: "./src/favicon.png",
       injectHTML: true,
+      background: '#fff',
+      title: 'Gatsby site',
       icons: {
         android: true,
         appleIcon: true,
         appleStartup: true,
         coast: false,
         favicons: true,
-        firefox: true,
-        twitter: false,
         yandex: false,
         windows: false
       }

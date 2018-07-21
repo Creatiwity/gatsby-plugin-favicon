@@ -6,7 +6,7 @@
   "scripts": {
     "build": "babel src --out-dir .",
     "watch": "babel -w src --out-dir .",
-    "prepublish": "cross-env NODE_ENV=production npm run build"
+    "prepublishOnly": "cross-env NODE_ENV=production npm run build"
   },
   "repository": {
     "type": "git",
@@ -31,8 +31,11 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
+    "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
-    "cross-env": "^5.1.4"
+    "cross-env": "^5.2.0"
+  },
+  "peerDependencies": {
+    "webpack": "^1.13.0 || ^2.0.0 || ^3.0.0 || ^4.0.0"
   }
 }
