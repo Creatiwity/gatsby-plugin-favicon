@@ -19,7 +19,6 @@ plugins: [
     resolve: `gatsby-plugin-favicon`,
     options: {
       logo: "./src/favicon.png",
-      injectHTML: true,
       background: '#fff',
       title: 'Gatsby site',
       icons: {
