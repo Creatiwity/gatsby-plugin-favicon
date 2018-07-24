@@ -23,8 +23,21 @@ plugins: [
     resolve: `gatsby-plugin-favicon`,
     options: {
       logo: "./src/favicon.png",
+
+      // WebApp Manifest Configuration
+      appName: 'Gatsby site',
+      appDescription: null,
+      developerName: null,
+      developerURL: null,
+      dir: 'auto',
+      lang: 'en-US',
       background: '#fff',
-      title: 'Gatsby site',
+      theme_color: '#fff',
+      display: 'standalone',
+      orientation: 'any',
+      start_url: '/?homescreen=1',
+      version: '1.0',
+
       icons: {
         android: true,
         appleIcon: true,
