@@ -23,9 +23,9 @@ module.exports.onCreateWebpackConfig = ({ actions, stage }, { logo, icons = {}, 
             yandex: false,
             windows: false,
             ...icons,
-          }
+          },
         }),
-      ]
-    })
+      ],
+    });
   }
-}
+};

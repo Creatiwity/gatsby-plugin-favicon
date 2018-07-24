@@ -11,4 +11,4 @@ module.exports.onRenderBody = ({ setHeadComponents }) => {
   setHeadComponents(stats.html.map(htmlRow =>
     ReactParser(htmlRow.replace(`/${stats.outputFilePrefix}`, prefixedOutputFilePrefix))
   ));
-}
+};
