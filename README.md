@@ -6,6 +6,10 @@ Generates all favicons for Web, Android, iOS, ...
 
 `yarn add gatsby-plugin-favicon`
 
+or
+
+`npm install gatsby-plugin-favicon`
+
 ## How to use
 
 1. Include the plugin in your `gatsby-config.js` file.
