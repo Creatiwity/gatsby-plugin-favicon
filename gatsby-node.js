@@ -11,7 +11,6 @@ module.exports.onCreateWebpackConfig = ({ actions, stage, getConfig }, { logo, i
           inject: false,
           emitStats: true,
           statsFilename: '.iconstats.json',
-          prefix: getConfig().output.publicPath + 'icons-[hash]/',
           icons: {
             android: true,
             appleIcon: true,
