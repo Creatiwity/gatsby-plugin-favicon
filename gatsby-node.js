@@ -1,9 +1,7 @@
 const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 
-module.exports.onCreateWebpackConfig = ({ actions, stage }, { logo, icons = {}, title, background }) => {
+module.exports.onCreateWebpackConfig = ({ actions, stage, getConfig }, { logo, icons = {}, title, background }) => {
   if (stage === 'develop-html' || stage === 'build-html') {
-    const prefix = __PATH_PREFIX__ ? __PATH_PREFIX__ : '';
-
     actions.setWebpackConfig({
       plugins: [
         new FaviconsWebpackPlugin({
@@ -13,7 +11,7 @@ module.exports.onCreateWebpackConfig = ({ actions, stage }, { logo, icons = {}, 
           inject: false,
           emitStats: true,
           statsFilename: '.iconstats.json',
-          publicPath: prefix,
+          publicPath: getConfig().output.publicPath,
           icons: {
             android: true,
             appleIcon: true,
