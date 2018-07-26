@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-favicon",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "description": "Gatsby plugin to add favicon for all configurations",
   "main": "index.js",
   "repository": {
@@ -20,7 +20,7 @@
   "homepage": "https://github.com/Creatiwity/gatsby-plugin-favicon#readme",
   "readme": "README.md",
   "dependencies": {
-    "favicons-webpack-plugin": "git://github.com/Creatiwity/favicons-webpack-plugin.git#5ab9c186ecbf1452777a288b9920a4f7aaaeb592",
+    "favicons-webpack-plugin": "git://github.com/Creatiwity/favicons-webpack-plugin.git#a106186d7184ab07767f7b6613f5a8ec8f9f186a",
     "html-react-parser": "^0.4.6"
   },
   "peerDependencies": {
