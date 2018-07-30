@@ -19,13 +19,24 @@ or
 ```javascript
 // in gatsby-config.js
 plugins: [
+  `gatsby-plugin-favicon`
+];
+```
+
+## Options
+
+Here is a full list of options with their default values you can use to configure this plugin.
+
+```javascript
+// in gatsby-config.js
+plugins: [
   {
     resolve: `gatsby-plugin-favicon`,
     options: {
       logo: "./src/favicon.png",
 
       // WebApp Manifest Configuration
-      appName: 'Gatsby site',
+      appName: null, // Inferred with your package.json
       appDescription: null,
       developerName: null,
       developerURL: null,
