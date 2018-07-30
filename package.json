@@ -21,7 +21,8 @@
   "readme": "README.md",
   "dependencies": {
     "favicons-webpack-plugin": "git://github.com/Creatiwity/favicons-webpack-plugin.git#f262255febeeca348bf7ae5cc140e0386c074e2c",
-    "html-react-parser": "^0.4.6"
+    "html-react-parser": "^0.4.6",
+    "lodash": "^4.17.10"
   },
   "peerDependencies": {
     "gatsby": ">2.0.0-alpha"
