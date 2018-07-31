@@ -8,7 +8,7 @@ Generates all favicons for Web, Android, iOS, ...
 
 or
 
-`npm install gatsby-plugin-favicon`
+`npm install --save gatsby-plugin-favicon`
 
 ## How to use
 
