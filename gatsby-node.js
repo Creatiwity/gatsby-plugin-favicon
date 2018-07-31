@@ -47,9 +47,7 @@ function getOptions(options) {
 
 // Gatsby v1
 module.exports.modifyWebpackConfig = ({ config, stage }, options) => {
-  if (isHtmlStage(stage)) {
-    config.plugin(`Favicon`, FaviconsWebpackPlugin, [getOptions(options)]);
-  }
+  config.plugin(`Favicon`, FaviconsWebpackPlugin, [getOptions(options)]);
 };
 
 // Gatsby v2
