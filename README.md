@@ -2,8 +2,6 @@
 
 Generates all favicons for Web, Android, iOS, ...
 
-**Starting with v3.x, this plugin is only compatible with Gatsby v2.x. Please use a previous version if you are still using Gatsby v1.x.**
-
 ## Install
 
 `yarn add gatsby-plugin-favicon`
