@@ -35,14 +35,29 @@ const defaultOptions = {
   },
 };
 
-module.exports.onCreateWebpackConfig = ({ actions, stage }, options) => {
-  if (stage === 'develop-html' || stage === 'build-html') {
-    let finalOptions = {};
-    merge(finalOptions, defaultOptions, options);
+function isHtmlStage(stage) {
+  return stage === 'develop-html' || stage === 'build-html';
+}
 
+function getOptions(options) {
+  let finalOptions = {};
+  merge(finalOptions, defaultOptions, options);
+  return finalOptions;
+}
+
+// Gatsby v1
+module.exports.modifyWebpackConfig = ({ config, stage }, options) => {
+  if (isHtmlStage(stage)) {
+    config.plugin(`Favicon`, FaviconsWebpackPlugin, [getOptions(options)]):
+  }
+};
+
+// Gatsby v2
+module.exports.onCreateWebpackConfig = ({ actions, stage }, options) => {
+  if (isHtmlStage(stage)) {
     actions.setWebpackConfig({
       plugins: [
-        new FaviconsWebpackPlugin(finalOptions),
+        new FaviconsWebpackPlugin(getOptions(options)),
       ],
     });
   }
