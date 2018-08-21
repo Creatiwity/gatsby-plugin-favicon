@@ -24,6 +24,7 @@
     "html-react-parser": "^0.4.6"
   },
   "peerDependencies": {
-    "gatsby": ">2.0.0-alpha"
+    "gatsby": ">2.0.0-alpha",
+    "react": "^16.4.2"
   }
 }
