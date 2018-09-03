@@ -8,7 +8,7 @@ Generates all favicons for Web, Android, iOS, ...
 
 or
 
-`npm install gatsby-plugin-favicon`
+`npm install --save gatsby-plugin-favicon`
 
 ## How to use
 
@@ -19,13 +19,24 @@ or
 ```javascript
 // in gatsby-config.js
 plugins: [
+  `gatsby-plugin-favicon`
+];
+```
+
+## Options
+
+Here is a full list of options with their default values you can use to configure this plugin.
+
+```javascript
+// in gatsby-config.js
+plugins: [
   {
     resolve: `gatsby-plugin-favicon`,
     options: {
       logo: "./src/favicon.png",
 
       // WebApp Manifest Configuration
-      appName: 'Gatsby site',
+      appName: null, // Inferred with your package.json
       appDescription: null,
       developerName: null,
       developerURL: null,
@@ -54,3 +65,9 @@ plugins: [
   }
 ];
 ```
+
+## Gatsby v1 Workaround
+
+Starting from the version 3.1.3, this plugin is almost compatible again with Gatsby v1. But the first build always fail. That's why it's only considered as a workaround, until someone find a way to fix it, or until everyone upgrade Gatsby to v2.
+
+More precisely, Gatsby produces the cache file used by this plugin a little bit too late. When you build it again, it will be already there.
