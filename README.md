@@ -68,6 +68,6 @@ plugins: [
 
 ## Gatsby v1 Workaround
 
-Starting from the version 2.1.3, this plugin is almost compatible again with Gatsby v1. But the first build always fail. That's why it's only considered as a workaround, until someone find a way to fix it, or until everyone upgrade Gatsby to v2.
+Starting from the version 3.1.3, this plugin is almost compatible again with Gatsby v1. But the first build always fail. That's why it's only considered as a workaround, until someone find a way to fix it, or until everyone upgrade Gatsby to v2.
 
 More precisely, Gatsby produces the cache file used by this plugin a little bit too late. When you build it again, it will be already there.
