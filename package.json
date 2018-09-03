@@ -25,7 +25,7 @@
     "lodash": "^4.17.10"
   },
   "peerDependencies": {
-    "gatsby": ">2.0.0-alpha",
+    "gatsby": "^1.9.0 || >2.0.0-alpha",
     "react": "^16.4.2"
   }
 }
