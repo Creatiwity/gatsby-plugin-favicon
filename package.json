@@ -20,7 +20,7 @@
   "homepage": "https://github.com/Creatiwity/gatsby-plugin-favicon#readme",
   "readme": "README.md",
   "dependencies": {
-    "favicons-webpack-plugin": "git://github.com/Creatiwity/favicons-webpack-plugin.git#f262255febeeca348bf7ae5cc140e0386c074e2c",
+    "favicons-webpack-plugin": "https://github.com/Creatiwity/favicons-webpack-plugin.git#f262255febeeca348bf7ae5cc140e0386c074e2c",
     "html-react-parser": "^0.4.6",
     "lodash": "^4.17.10"
   },
