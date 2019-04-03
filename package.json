@@ -20,12 +20,12 @@
   "homepage": "https://github.com/Creatiwity/gatsby-plugin-favicon#readme",
   "readme": "README.md",
   "dependencies": {
-    "favicons-webpack-plugin": "https://github.com/Creatiwity/favicons-webpack-plugin.git#f262255febeeca348bf7ae5cc140e0386c074e2c",
-    "html-react-parser": "^0.4.6",
-    "lodash": "^4.17.10"
+    "favicons-webpack-plugin": "https://github.com/Creatiwity/favicons-webpack-plugin.git#0872de414061baaad0a2853c77ae75bc38b8bbbf",
+    "html-react-parser": "^0.6.4",
+    "lodash": "^4.17.11"
   },
   "peerDependencies": {
-    "gatsby": ">2.0.0-alpha",
-    "react": "^16.4.2"
+    "gatsby": ">=2.0.0",
+    "react": "^16"
   }
 }
