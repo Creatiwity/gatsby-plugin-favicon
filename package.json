@@ -20,9 +20,9 @@
   "homepage": "https://github.com/Creatiwity/gatsby-plugin-favicon#readme",
   "readme": "README.md",
   "dependencies": {
-    "favicons-webpack-plugin": "https://github.com/Creatiwity/favicons-webpack-plugin.git#0872de414061baaad0a2853c77ae75bc38b8bbbf",
-    "html-react-parser": "^0.6.4",
-    "lodash": "^4.17.11"
+    "favicons-webpack-plugin": "^1.0.2",
+    "html-react-parser": "^0.9.1",
+    "lodash": "^4.17.15"
   },
   "peerDependencies": {
     "gatsby": ">=2.0.0",
