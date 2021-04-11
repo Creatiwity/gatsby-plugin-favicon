@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Creatiwity/gatsby-plugin-favicon.git"
+    "url": "git+https://github.com/ArnaudFlaesch/gatsby-plugin-favicon.git"
   },
   "keywords": [
     "gatsby",
@@ -15,17 +15,18 @@
   "author": "Julien Blatecky <julien.blatecky@creatiwity.net>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Creatiwity/gatsby-plugin-favicon/issues"
+    "url": "https://github.com/ArnaudFlaesch/gatsby-plugin-favicon/issues"
   },
-  "homepage": "https://github.com/Creatiwity/gatsby-plugin-favicon#readme",
+  "homepage": "https://github.com/ArnaudFlaesch/gatsby-plugin-favicon#readme",
   "readme": "README.md",
   "dependencies": {
-    "favicons-webpack-plugin": "^1.0.2",
+    "favicons-webpack-plugin": "^5.0.0",
     "html-react-parser": "^0.9.1",
     "lodash": "^4.17.15"
   },
   "peerDependencies": {
-    "gatsby": ">=2.0.0",
-    "react": "^16"
+    "gatsby": ">=3.0.0",
+    "react": "^16",
+    "webpack": "^5"
   }
 }
